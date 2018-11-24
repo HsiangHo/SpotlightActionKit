@@ -16,7 +16,21 @@
 		989A717121A5954B00C1FDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989A717021A5954B00C1FDBC /* Assets.xcassets */; };
 		989A717421A5954B00C1FDBC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989A717221A5954B00C1FDBC /* MainMenu.xib */; };
 		989A717721A5954B00C1FDBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A717621A5954B00C1FDBC /* main.m */; };
+		989A718921A6DE4E00C1FDBC /* p in Resources */ = {isa = PBXBuildFile; fileRef = 989A718821A6DE4E00C1FDBC /* p */; };
+		989A718C21A6E4D900C1FDBC /* SpotlightActionInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A718B21A6E4D900C1FDBC /* SpotlightActionInvoker.m */; };
+		989A719021A6E6B400C1FDBC /* SpotlightActionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A718F21A6E6B400C1FDBC /* SpotlightActionObject.m */; };
+		989A719321A6E85500C1FDBC /* ShadowstarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989A718421A5B07700C1FDBC /* ShadowstarKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		989A718321A5B07700C1FDBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 989A717F21A5B07600C1FDBC /* ShadowstarKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98804684205813D100E9E768;
+			remoteInfo = ShadowstarKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		989A714721A5922100C1FDBC /* SpotlightActionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpotlightActionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +52,12 @@
 		989A717521A5954B00C1FDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989A717621A5954B00C1FDBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		989A717821A5954B00C1FDBC /* SpotlightActionDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpotlightActionDemo.entitlements; sourceTree = "<group>"; };
+		989A717F21A5B07600C1FDBC /* ShadowstarKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShadowstarKit.xcodeproj; path = ../ShadowstarKit/ShadowstarKit/ShadowstarKit.xcodeproj; sourceTree = "<group>"; };
+		989A718821A6DE4E00C1FDBC /* p */ = {isa = PBXFileReference; lastKnownFileType = folder; path = p; sourceTree = "<group>"; };
+		989A718A21A6E4D900C1FDBC /* SpotlightActionInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotlightActionInvoker.h; sourceTree = "<group>"; };
+		989A718B21A6E4D900C1FDBC /* SpotlightActionInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightActionInvoker.m; sourceTree = "<group>"; };
+		989A718E21A6E6B400C1FDBC /* SpotlightActionObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotlightActionObject.h; sourceTree = "<group>"; };
+		989A718F21A6E6B400C1FDBC /* SpotlightActionObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightActionObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989A719321A6E85500C1FDBC /* ShadowstarKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +89,12 @@
 		989A713D21A5922100C1FDBC = {
 			isa = PBXGroup;
 			children = (
+				989A717F21A5B07600C1FDBC /* ShadowstarKit.xcodeproj */,
 				989A714921A5922100C1FDBC /* SpotlightActionKit */,
 				989A716C21A5954A00C1FDBC /* SpotlightActionDemo */,
 				989A715721A594CD00C1FDBC /* SpotlightActionLoader */,
 				989A714821A5922100C1FDBC /* Products */,
+				989A719221A6E85500C1FDBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +122,15 @@
 			children = (
 				989A715821A594CD00C1FDBC /* AppDelegate.h */,
 				989A715921A594CD00C1FDBC /* AppDelegate.m */,
+				989A718A21A6E4D900C1FDBC /* SpotlightActionInvoker.h */,
+				989A718B21A6E4D900C1FDBC /* SpotlightActionInvoker.m */,
+				989A718E21A6E6B400C1FDBC /* SpotlightActionObject.h */,
+				989A718F21A6E6B400C1FDBC /* SpotlightActionObject.m */,
 				989A715B21A594CF00C1FDBC /* Assets.xcassets */,
 				989A715D21A594CF00C1FDBC /* MainMenu.xib */,
 				989A716021A594CF00C1FDBC /* Info.plist */,
 				989A716121A594CF00C1FDBC /* main.m */,
+				989A718621A6DE0000C1FDBC /* SupportFiles */,
 				989A716321A594D000C1FDBC /* SpotlightActionLoader.entitlements */,
 			);
 			path = SpotlightActionLoader;
@@ -120,6 +148,29 @@
 				989A717821A5954B00C1FDBC /* SpotlightActionDemo.entitlements */,
 			);
 			path = SpotlightActionDemo;
+			sourceTree = "<group>";
+		};
+		989A718021A5B07600C1FDBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				989A718421A5B07700C1FDBC /* ShadowstarKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		989A718621A6DE0000C1FDBC /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				989A718821A6DE4E00C1FDBC /* p */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		989A719221A6E85500C1FDBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +255,11 @@
 					989A715521A594CD00C1FDBC = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					989A716A21A5954A00C1FDBC = {
 						CreatedOnToolsVersion = 10.1;
@@ -222,6 +278,12 @@
 			mainGroup = 989A713D21A5922100C1FDBC;
 			productRefGroup = 989A714821A5922100C1FDBC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 989A718021A5B07600C1FDBC /* Products */;
+					ProjectRef = 989A717F21A5B07600C1FDBC /* ShadowstarKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				989A714621A5922100C1FDBC /* SpotlightActionKit */,
@@ -230,6 +292,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		989A718421A5B07700C1FDBC /* ShadowstarKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ShadowstarKit.framework;
+			remoteRef = 989A718321A5B07700C1FDBC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		989A714521A5922100C1FDBC /* Resources */ = {
@@ -243,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989A718921A6DE4E00C1FDBC /* p in Resources */,
 				989A715C21A594CF00C1FDBC /* Assets.xcassets in Resources */,
 				989A715F21A594CF00C1FDBC /* MainMenu.xib in Resources */,
 			);
@@ -272,6 +345,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				989A716221A594D000C1FDBC /* main.m in Sources */,
+				989A719021A6E6B400C1FDBC /* SpotlightActionObject.m in Sources */,
+				989A718C21A6E4D900C1FDBC /* SpotlightActionInvoker.m in Sources */,
 				989A715A21A594CD00C1FDBC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,22 +7,27 @@
 //
 
 #import "AppDelegate.h"
+#import "SpotlightActionInvoker.h"
 
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
 @end
 
-@implementation AppDelegate
+@implementation AppDelegate{
+    SpotlightActionInvoker           *_invoker;
+}
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    _invoker = [[SpotlightActionInvoker alloc] initWithActionsFolderPath:
+                [[[NSBundle mainBundle] resourcePath] stringByAppendingString:@"/p"]];
+    [_invoker invokeAcitons];
+    [NSApp terminate:nil];
 }
-
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
-
 
 @end
