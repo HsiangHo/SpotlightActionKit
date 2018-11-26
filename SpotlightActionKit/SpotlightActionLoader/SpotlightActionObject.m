@@ -34,6 +34,8 @@
         [SSUtility accessFilePath:[NSURL fileURLWithPath:@"/"] persistPermission:YES withParentWindow:nil withActionBlock:^{
             [SSUtility execBashCommandInCompatibleMode: [NSString stringWithFormat:@"'%@'",self->_scriptPath] withFlag: false];
         }];
+    }else{
+        [[NSWorkspace sharedWorkspace] openFile:_scriptPath];
     }
 }
 
