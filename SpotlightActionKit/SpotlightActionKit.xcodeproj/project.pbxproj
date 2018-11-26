@@ -27,6 +27,7 @@
 		989A71B021AAE16300C1FDBC /* SpotlightActionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989A714721A5922100C1FDBC /* SpotlightActionKit.framework */; };
 		989A71B121AAE16300C1FDBC /* ShadowstarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989A718421A5B07700C1FDBC /* ShadowstarKit.framework */; };
 		989A71B321AAE3BE00C1FDBC /* SpotlightActionLoader.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 989A715621A594CD00C1FDBC /* SpotlightActionLoader.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		989A71C821AC2A0000C1FDBC /* scpt in Resources */ = {isa = PBXBuildFile; fileRef = 989A71C721AC2A0000C1FDBC /* scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		989A71A621AA904F00C1FDBC /* SASpotligjtActionConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASpotligjtActionConfigure.h; sourceTree = "<group>"; };
 		989A71A921AA918E00C1FDBC /* SASpotlightActionMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SASpotlightActionMaker.h; sourceTree = "<group>"; };
 		989A71AA21AA918E00C1FDBC /* SASpotlightActionMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SASpotlightActionMaker.m; sourceTree = "<group>"; };
+		989A71C721AC2A0000C1FDBC /* scpt */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scpt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				989A717021A5954B00C1FDBC /* Assets.xcassets */,
 				989A717221A5954B00C1FDBC /* MainMenu.xib */,
 				989A717521A5954B00C1FDBC /* Info.plist */,
+				989A71C721AC2A0000C1FDBC /* scpt */,
 				989A717621A5954B00C1FDBC /* main.m */,
 				989A717821A5954B00C1FDBC /* SpotlightActionDemo.entitlements */,
 			);
@@ -363,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989A71C821AC2A0000C1FDBC /* scpt in Resources */,
 				989A717121A5954B00C1FDBC /* Assets.xcassets in Resources */,
 				989A717421A5954B00C1FDBC /* MainMenu.xib in Resources */,
 			);
