@@ -20,6 +20,13 @@
 		989A718C21A6E4D900C1FDBC /* SpotlightActionInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A718B21A6E4D900C1FDBC /* SpotlightActionInvoker.m */; };
 		989A719021A6E6B400C1FDBC /* SpotlightActionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A718F21A6E6B400C1FDBC /* SpotlightActionObject.m */; };
 		989A719321A6E85500C1FDBC /* ShadowstarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989A718421A5B07700C1FDBC /* ShadowstarKit.framework */; };
+		989A71A721AA904F00C1FDBC /* SASpotligjtActionConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A71A421AA904F00C1FDBC /* SASpotligjtActionConfigure.m */; };
+		989A71A821AA904F00C1FDBC /* SASpotligjtActionConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 989A71A621AA904F00C1FDBC /* SASpotligjtActionConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		989A71AB21AA918E00C1FDBC /* SASpotlightActionMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 989A71A921AA918E00C1FDBC /* SASpotlightActionMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		989A71AC21AA918E00C1FDBC /* SASpotlightActionMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A71AA21AA918E00C1FDBC /* SASpotlightActionMaker.m */; };
+		989A71B021AAE16300C1FDBC /* SpotlightActionKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989A714721A5922100C1FDBC /* SpotlightActionKit.framework */; };
+		989A71B121AAE16300C1FDBC /* ShadowstarKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989A718421A5B07700C1FDBC /* ShadowstarKit.framework */; };
+		989A71B321AAE3BE00C1FDBC /* SpotlightActionLoader.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 989A715621A594CD00C1FDBC /* SpotlightActionLoader.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +38,19 @@
 			remoteInfo = ShadowstarKit;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		989A71B221AAE3B000C1FDBC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				989A71B321AAE3BE00C1FDBC /* SpotlightActionLoader.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		989A714721A5922100C1FDBC /* SpotlightActionKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpotlightActionKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +78,10 @@
 		989A718B21A6E4D900C1FDBC /* SpotlightActionInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightActionInvoker.m; sourceTree = "<group>"; };
 		989A718E21A6E6B400C1FDBC /* SpotlightActionObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotlightActionObject.h; sourceTree = "<group>"; };
 		989A718F21A6E6B400C1FDBC /* SpotlightActionObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightActionObject.m; sourceTree = "<group>"; };
+		989A71A421AA904F00C1FDBC /* SASpotligjtActionConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASpotligjtActionConfigure.m; sourceTree = "<group>"; };
+		989A71A621AA904F00C1FDBC /* SASpotligjtActionConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASpotligjtActionConfigure.h; sourceTree = "<group>"; };
+		989A71A921AA918E00C1FDBC /* SASpotlightActionMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SASpotlightActionMaker.h; sourceTree = "<group>"; };
+		989A71AA21AA918E00C1FDBC /* SASpotlightActionMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SASpotlightActionMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +104,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989A71B021AAE16300C1FDBC /* SpotlightActionKit.framework in Frameworks */,
+				989A71B121AAE16300C1FDBC /* ShadowstarKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +137,10 @@
 		989A714921A5922100C1FDBC /* SpotlightActionKit */ = {
 			isa = PBXGroup;
 			children = (
+				989A71A621AA904F00C1FDBC /* SASpotligjtActionConfigure.h */,
+				989A71A421AA904F00C1FDBC /* SASpotligjtActionConfigure.m */,
+				989A71A921AA918E00C1FDBC /* SASpotlightActionMaker.h */,
+				989A71AA21AA918E00C1FDBC /* SASpotlightActionMaker.m */,
 				989A714A21A5922100C1FDBC /* SpotlightActionKit.h */,
 				989A714B21A5922100C1FDBC /* Info.plist */,
 			);
@@ -180,6 +210,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989A71AB21AA918E00C1FDBC /* SASpotlightActionMaker.h in Headers */,
+				989A71A821AA904F00C1FDBC /* SASpotligjtActionConfigure.h in Headers */,
 				989A714C21A5922100C1FDBC /* SpotlightActionKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +261,7 @@
 				989A716721A5954A00C1FDBC /* Sources */,
 				989A716821A5954A00C1FDBC /* Frameworks */,
 				989A716921A5954A00C1FDBC /* Resources */,
+				989A71B221AAE3B000C1FDBC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -264,6 +297,11 @@
 					989A716A21A5954A00C1FDBC = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -337,6 +375,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989A71A721AA904F00C1FDBC /* SASpotligjtActionConfigure.m in Sources */,
+				989A71AC21AA918E00C1FDBC /* SASpotlightActionMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +555,7 @@
 				INFOPLIST_FILE = SpotlightActionKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.HyperartFlow.SpotlightActionKit;
@@ -539,6 +580,7 @@
 				INFOPLIST_FILE = SpotlightActionKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.HyperartFlow.SpotlightActionKit;
@@ -585,7 +627,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SpotlightActionDemo/SpotlightActionDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/Output";
@@ -602,7 +643,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SpotlightActionDemo/SpotlightActionDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/Output";

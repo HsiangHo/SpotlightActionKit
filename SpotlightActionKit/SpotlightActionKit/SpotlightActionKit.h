@@ -7,6 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <SpotlightActionKit/SASpotligjtActionConfigure.h>
+#import <SpotlightActionKit/SASpotlightActionMaker.h>
 
 //! Project version number for SpotlightActionKit.
 FOUNDATION_EXPORT double SpotlightActionKitVersionNumber;
